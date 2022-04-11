@@ -1,2 +1,5 @@
-python3 pwdPass.py
+pip install pyperclip
+cls
+
+echo python pwdPass.py >> "start.bat"
 pause
