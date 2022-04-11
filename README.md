@@ -12,7 +12,10 @@ cd Password-Generator/
 ```
 pip install pyperclip
 ```
+```
 
+```
+pip install dhooks
 ```
 python3 pwdPass.py
 ```
