@@ -1,5 +1,5 @@
 # Password-Generator
-Password generator coded in python
+Password generator and save Webhook Discord
 
 ```
 git clone https://github.com/Acceded/Password-Generator.git
