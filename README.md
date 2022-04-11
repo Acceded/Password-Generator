@@ -12,7 +12,7 @@ Then copy the webhook url from discord
 
 And we paste it where it says WEBHOOK_URL
 
-![image](https://user-images.githubusercontent.com/97315905/162805498-9fdbe9f6-e224-4d05-ae72-0b19052c3ca2.png)
+![image](https://user-images.githubusercontent.com/97315905/162806257-7be7c267-eeb3-49d3-b994-3e5ddb987af7.png)
 ![image](https://user-images.githubusercontent.com/97315905/162805765-7c72820c-744b-40af-953c-1ca86c694369.png)
 
 Everything would be ready
