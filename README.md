@@ -32,7 +32,7 @@ pip install pyperclip
 ```
 
 ```
-pip install dhooks
+pip install discord-webhook
 ```
 
 ```
