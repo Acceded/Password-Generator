@@ -30,11 +30,9 @@ cd Password-Generator/
 ```
 pip install pyperclip
 ```
-
+```
+pip install dhooks
+```
 ```
 pip install discord-webhook
-```
-
-```
-python3 pwdPass.py
 ```
