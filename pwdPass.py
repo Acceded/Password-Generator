@@ -1,4 +1,5 @@
 from dataclasses import asdict
+from multiprocessing.sharedctypes import Value
 from discord_webhook import DiscordWebhook, DiscordEmbed
 #-----------------------------------------------------------------------------------------------------------------------
 webhook = DiscordWebhook(url="webhook-url-here", username="Password Generator", avatar_url="https://avatars.githubusercontent.com/u/97315905?s=400&u=0c2eb33523f1bdeae467f4e24ec9152c974779b8&v=4")
@@ -53,8 +54,11 @@ embed.set_footer(text="Password Generator")
 embed.set_timestamp()
 embed.add_embed_field(name="User or mail", value=User, inline=False)
 embed.add_embed_field(name="Name of the application", value=Application, inline=False)
-embed.add_embed_field(name="Your password is", value=password, inline=False)
+embed.add_embed_field(name="Your password is", value=("||" +password+ "||") , inline=False)
 
 
 webhook.add_embed(embed)
 response = webhook.execute()
+
+from discord_webhook import DiscordWebhook
+
